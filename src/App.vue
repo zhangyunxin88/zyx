@@ -12,6 +12,11 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data: function () {
+    return {
+      zyx: 'zyx'
+    }
   }
 }
 </script>
